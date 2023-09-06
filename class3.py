@@ -146,6 +146,8 @@ print(x)
 """
 #str =>%s
 #int =>%d
+
+""" format strings
 x = input("enter the course name:")
 y = int(input("enter course duration:"))
 
@@ -154,6 +156,8 @@ print("He is learning {} course".format(x))
 print(f"he is learning {x} course in days {y}")
 
 print("He is learning %s course in some days %d"%(x,y))
+"""
+
 
 
 
