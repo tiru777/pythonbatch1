@@ -1,4 +1,4 @@
-# input
+# input keyword from python is using for taking values from enduser
 #print formats,math
 # operators
 '''
