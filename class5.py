@@ -75,6 +75,11 @@ print(x[2:8])#nodkum
 print(x[2:8:1])#nodkum
 print(x[::-1])#ramukdoniv # how to reverse the string
 
+def func(length):
+    print("hellow world",length)
+
+print(func("thiru"))
+
 
 
 
