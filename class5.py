@@ -45,7 +45,10 @@ print(x.join("reddy"))
 import math
 # print(help(math))
 print("ceil",math.ceil(24.3))# 25
+
 print("floor",math.floor(24.3))# 24 
+
+print("floor",math.floor(24.3))# 24
 
 '''
 
@@ -74,39 +77,7 @@ x = "vinodkumar"
 print(x[2:8])#nodkum
 print(x[2:8:1])#nodkum
 print(x[::-1])#ramukdoniv # how to reverse the string
+def fun(strr):
+    print("hellow world",strr)
 
-def func(length):
-    print("hellow world",length)
-
-print(func("thiru"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(fun("thiru"))
