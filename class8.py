@@ -96,6 +96,13 @@ print("max:",max(x))
 print("min:",min(x))
 '''
 
+x = int(input("enter the value:"))
+y = 0
+
+for i in range(x):#0,1,2,3,4
+    y = y+ i # 0+0=0,#0+1=1 #1+2=3
+
+print(y)
 
 
 
