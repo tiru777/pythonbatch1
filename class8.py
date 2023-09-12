@@ -96,6 +96,7 @@ print("max:",max(x))
 print("min:",min(x))
 '''
 
+# sum of n lelements
 x = int(input("enter the value:"))
 y = 0
 
