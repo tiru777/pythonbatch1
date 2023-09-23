@@ -116,7 +116,7 @@ zz = {i:j for i,j in x.items()if j%1==0}
 print(zz)
 
 
-zzz = {i:j if j%2==0 else 10 for i,j in x.items()}
+zzz = {i:j if j%2==0 else 10 for i,j in x.items()} # {'a': 10, 'b': 10, 'c': 10}
 print(zzz)
 
 
