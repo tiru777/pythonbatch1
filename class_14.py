@@ -207,9 +207,29 @@ def funcc_main(arg1,arg2):
     return arg1/arg2
 
 # print(funcc_main(10,2)) # 5
+# print(funcc_main(22,40)) # 5
 
-print(funcc_main(22,40)) # 5
 
+# next level
+
+def decorator_check(func):
+    def inner(arg1,arg2):# 10,2
+        if arg1>arg2: #10>2
+            return func(arg1,arg2)# 5
+        else:
+            return f"{arg1} is less than {arg2}"
+
+    return inner #5
+
+
+def funcc_main_(arg1,arg2):
+    return arg1/arg2
+
+# print(funcc_main(10,2)) # 5
+# print(funcc_main(22,40)) # 5
+
+dataa = decorator_check(funcc_main_(10,20))
+print(dataa)
 
 
 
